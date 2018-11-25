@@ -1,0 +1,10 @@
+@import 'utils';
+
+.page-template{
+    main{
+        background: $oc-gray-1;
+        //header와 footer의 높이를 합치면 15rem이므로 
+        //페이지 높이에서 15rem을 뺀 값을 min height로 둔다.
+        min-height: calc(100vh - 15rem);
+    }
+}
